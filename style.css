@@ -1,0 +1,414 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #FFF9C4;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+h4 {
+    color: #37778f;
+}
+
+
+
+header {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerImage {
+    width: 80vw;
+}
+
+nav {
+    width: 85%;
+
+}
+
+ul {
+    width: 45%;
+    margin: 2% 0 2% 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ul a {
+    text-decoration: none;
+    background-color: #E3F2FD;
+    display: inline;
+    margin-right: 10px;
+    padding: .8em;
+    color: black;
+}
+
+ul a:hover {
+    background-color: #F1EA7F;
+}
+
+section {
+    float: left;
+    width: 67%;
+    margin-top: 1%;
+    padding: 2% 0 2% 2%;
+    background-color: #E3F2FD;
+}
+
+section h4 {
+    margin-bottom: 2%;
+    background-color: #E3F2FD;
+
+}
+
+section p {
+    background-color: #E3F2FD;
+    margin: 2% 0;
+
+}
+
+section p::selection {
+    color: red;
+}
+
+section h4::selection {
+    color: red;
+}
+
+aside {
+    margin-top: 1%;
+    text-align: left;
+    width: 30%;
+    float: right;
+
+
+
+
+
+}
+
+.kurdistanRegionAside {
+    background-color: #ffe697;
+    padding: 1%;
+    padding-bottom: 10em;
+    height: 2em;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+
+
+}
+
+.kurdistanRegionAside p {
+    text-align: left;
+    background-color: #ffe697;
+    padding-bottom: 10%;
+
+}
+
+.kurdistanRegionAside h4 {
+    padding-top: 5%;
+    text-align: center;
+    background-color: #ffe697;
+    padding-bottom: 2%;
+}
+
+.yesNo {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.yesNoImage {
+    margin: 0 auto;
+    margin-top: 7%;
+    border: .75px solid black;
+    border-top: none;
+    background-color: whitesmoke;
+    width: 90%;
+}
+
+.kurdistanNatural {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.kurdistanNatural h4 {
+    margin-bottom: 5%;
+}
+
+.kurdistanNaturalImage {
+    background-color: #000;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.blackBar {
+    margin-top: 0;
+    height: 2vh;
+    background-color: #000;
+}
+
+
+.gallery {
+
+    background-color: #E3F2FD;
+    float: left;
+    margin-top: 6%;
+    text-align: center;
+    width: 65%;
+    padding-bottom: 1%;
+}
+
+.gallery h4 {
+    padding-top: 3%;
+    background-color: #E3F2FD;
+    color: #1d4250;
+}
+
+.gallery .imgCont {
+    background-color: #E3F2FD;
+    padding-top: 3%;
+    display: flex;
+    max-width: 80%;
+    margin: 0 0 0 1%;
+}
+
+.imgDiv {
+    background-color: #E3F2FD;
+
+}
+
+.imgDiv img {
+    background-color: #E3F2FD;
+    margin: 5%;
+    width: 8em;
+    height: 7.8em;
+    opacity: .5;
+}
+
+.imgDiv img:hover {
+    opacity: 1;
+    zoom: 1.2;
+}
+
+.socialMediaLinks {
+    padding-left: 1%;
+    background-color: #ffe697;
+    float: right;
+    color: black;
+    margin-top: 6%;
+    width: 34%;
+    margin-bottom: 15em;
+
+
+}
+
+.socialMediaLinks p {
+    background-color: #ffe697;
+
+    font-size: .80em;
+    margin-bottom: 2%;
+}
+
+.socialMediaLinks h4 {
+    background-color: #ffe697;
+
+    color: black;
+    padding-top: 17%;
+    margin-bottom: 4%;
+
+}
+
+.socialMediaLinks h5 {
+    background-color: #ffe697;
+
+    margin-bottom: 3%;
+}
+
+.mail {
+    background-color: #ffe697;
+    margin-bottom: 10%;
+}
+
+.phoneFax {
+    background-color: #ffe697;
+
+}
+
+
+
+.socialMediaLinks img {
+    background-color: #ffe697;
+
+}
+
+.socialMediaIcons {
+    background-color: #ffe697;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#twitter {
+    background-color: #ffe697;
+    background-image: url(./media/social-icons.png);
+    width: 2em;
+    height: 8vh;
+    background-position: -54px 0;
+}
+
+#twitter:hover {
+    background-position: -54px 50px;
+}
+
+#facebook {
+    background-color: #ffe697;
+    background-image: url(./media/social-icons.png);
+    width: 2em;
+    height: 8vh;
+    background-position: 0 0;
+}
+
+#facebook:hover {
+    background-position: 0 50px;
+}
+
+#googlePlus {
+    background-color: #ffe697;
+    background-image: url(./media/social-icons.png);
+    width: 2em;
+    height: 8vh;
+    background-position: -100px 0;
+}
+
+#googlePlus:hover {
+    background-position: -100px 50px;
+}
+
+#stumbleUpon {
+    background-color: #ffe697;
+    background-image: url(./media/social-icons.png);
+    width: 2.3em;
+    height: 8vh;
+    background-position: -153px 0;
+}
+
+#stumbleUpon:hover {
+    background-position: -153px 50px;
+}
+
+#reddit {
+    background-color: #ffe697;
+    background-image: url(./media/social-icons.png);
+    width: 2.3em;
+    height: 8vh;
+    background-position: -203px 0;
+}
+
+#reddit:hover {
+    background-position: -203px 50px;
+}
+
+.form {
+    background-color: #FFF9C4;
+    margin-bottom: 15em;
+
+}
+
+.form h4 {
+    text-align: center;
+    padding-bottom: 1em;
+    color: #37778f;
+    background-color: #FFF9C4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+
+    background-color: #FFF9C4;
+}
+
+label {
+
+    background-color: #FFF9C4;
+    margin-top: 1em;
+    padding-left: 1.5em;
+}
+
+
+
+input {
+    width: 30em;
+    background-color: #fff;
+}
+
+#email {
+    width: 12em;
+}
+
+#password {
+    width: 12em;
+}
+
+.options input {
+    width: 1.3em;
+}
+
+select {
+    background-color: #fff;
+    width: 7em;
+}
+
+option {
+    background-color: #fff;
+}
+
+textarea {
+    background-color: #fff;
+}
+
+button {
+
+    width: 5em;
+    height: 2.2em;
+    background-color: #37778f;
+
+}
+
+#buttonSendReset {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.kurdistanNaturalVideo {
+    background-color: #000;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+video {
+    height: 10em;
+    width: 10em;
+    background-color: #000;
+
+}
